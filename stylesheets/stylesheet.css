@@ -272,8 +272,6 @@ Full-Width Styles
 .header_item {
   display: block;
   position: absolute;
-  bottom:0px;
-  right: 60px;
   z-index: 10;
   padding: 10px 10px 10px 10px;
   color: #fff;
@@ -293,11 +291,11 @@ Full-Width Styles
   background: linear-gradient(top, #373737, #212121);
 }
 
-/*
+
 #header_wrap .inner {
   padding: 20px 10px 30px 10px;
 }
-*/
+
 
 #project_title {
   margin: 0;
