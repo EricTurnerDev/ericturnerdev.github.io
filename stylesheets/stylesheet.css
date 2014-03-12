@@ -269,6 +269,34 @@ Full-Width Styles
   margin: 0 auto;
 }
 
+#nav{
+  width:100%;
+  float:left;
+  margin:0 0 3em 0;
+  padding:0;
+  list-style:none;
+  background-color:#212121;
+}
+
+#nav li{
+  float:left;
+}
+
+#nav li a{
+  display: block;
+  position: relative;
+  bottom: 0px;
+  right: 0px;
+  z-index: 10;
+  padding: 10px 10px 10px 10px;
+  color: #fff;
+  background: #0090ff no-repeat;
+  font-weight: 70;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  border-top-left-radius:2px;
+  border-top-right-radius: 2px;
+
+}
 .header_item {
   display: block;
   position: relative;
@@ -293,11 +321,11 @@ Full-Width Styles
   background: linear-gradient(top, #373737, #212121);
 }
 
-/*
+
 #header_wrap .inner {
   padding: 20px 10px 30px 10px;
 }
-*/
+
 
 #project_title {
   margin: 0;
