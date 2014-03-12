@@ -271,9 +271,9 @@ Full-Width Styles
 
 .header_item {
   display: block;
-  position: absolute;
+  position: relative;
   bottom:0px;
-  right: 0px;
+  right: 50px;
   z-index: 10;
   padding: 10px 10px 10px 10px;
   color: #fff;
