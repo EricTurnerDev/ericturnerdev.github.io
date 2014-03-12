@@ -273,7 +273,7 @@ Full-Width Styles
   display: block;
   position: absolute;
   bottom:0px;
-  right: 0px;
+  right: 60px;
   z-index: 10;
   padding: 10px 10px 10px 10px;
   color: #fff;
