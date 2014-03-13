@@ -161,6 +161,7 @@ img {
   padding: 5px;
   margin: 10px 0 10px 0;
   border: 1px solid #ebebeb;
+  background-color: #fff;
 
   box-shadow: 0 0 5px #ebebeb;
   -webkit-box-shadow: 0 0 5px #ebebeb;
@@ -174,11 +175,26 @@ img {
 
 .port_img{
 
-max-width:240px;
-max-height:240px;
+max-width:220px;
+max-height:220px;
 float: left;
 
 
+}
+
+.port_grayspace{
+
+  width: 95%;
+  background-color: #f2f2f2;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-size: 14px;
+
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  padding: 10px;
+  box-shadow: 0px 2px 4px rgba(0,0,0,.1);
+  overflow: auto;
 }
 
 .port_whitespace{
@@ -192,14 +208,14 @@ float: left;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   padding: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  box-shadow: 0px 2px 4px rgba(0,0,0,.1);
   overflow: auto;
 }
 
 .port_text_head{
 
   position: relative;
-  padding-left: 59%;
+  padding-left: 58%;
 
 }
 
