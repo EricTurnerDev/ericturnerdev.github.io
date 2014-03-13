@@ -1,6 +1,7 @@
 /*******************************************************************************
 Slate Theme for GitHub Pages
 by Jason Costello, @jsncostello
+Modified by Eric Turner
 *******************************************************************************/
 
 @import url(pygment_trac.css);
@@ -45,7 +46,7 @@ table {
 }
 
 /*******************************************************************************
-Theme Styles
+Styles
 *******************************************************************************/
 
 body {
@@ -168,6 +169,47 @@ img {
   -ms-box-shadow: 0 0 5px #ebebeb;
 }
 
+/******************** Styles for Portfolio Page ********************
+********************************************************************/
+
+.port_img{
+
+max-width:240px;
+max-height:240px;
+float: left;
+
+
+}
+
+.port_whitespace{
+
+  width: 95%;
+  background-color: #fff;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-size: 14px;
+
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  overflow: auto;
+}
+
+.port_text_head{
+
+  position: relative;
+  padding-left: 59%;
+
+}
+
+.port_text_bullet{
+
+  position: relative;
+  padding-left: ;
+
+}
+
 p img {
   display: inline;
   margin: 0;
@@ -185,13 +227,13 @@ pre, code {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   font-size: 14px;
 
-  border-radius: 2px;
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
 }
 
 pre {
-  width: 100%;
+  width: 95%;
   padding: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,.1);
   overflow: auto;
@@ -282,11 +324,20 @@ Full-Width Styles
   width: 100%;
 }
 
+.no_top_margin{
+
+  margin-top: 0px;
+
+}
+
 .inner {
   position: relative;
   max-width: 640px;
   padding: 20px 10px;
-  margin: 0 0 0 0;
+  top:50%;
+  left:50%;
+  margin-left: -320px;
+  margin-right: -320px;
   overflow: hidden;
 }
 
@@ -398,7 +449,7 @@ Full-Width Styles
 }
 
 #main_content {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 #footer_wrap {
