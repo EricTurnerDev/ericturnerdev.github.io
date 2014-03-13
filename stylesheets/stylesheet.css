@@ -61,7 +61,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
   font-weight: 700;
-  color:#222222;
+  /*color:#222222;*/
+  color: white;
   font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
   letter-spacing: -1px;
 }
@@ -270,7 +271,7 @@ Full-Width Styles
 }
 
 #nav{
-  display: inline-block;
+  display: block
   width:100%;
   float:left;
   margin:0 0 0 0;
@@ -281,6 +282,7 @@ Full-Width Styles
 
 #nav li{
   float:left;
+  display: block;
 }
 
 #nav li a{
@@ -288,7 +290,6 @@ Full-Width Styles
   z-index: 10;
   padding: 10px 10px 10px 10px;
   color: #fff;
-  background: #0090ff;
   font-weight: 70;
   border-right: solid;
   border-width: 1px;
