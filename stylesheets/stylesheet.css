@@ -68,10 +68,23 @@ h1, h2, h3, h4, h5, h6 {
 
 .header_text{
 
-  color: white;
-  margin: 0 0;
+  color: #ebebeb;
+  margin: 0 0 10px 10px;
 
 }
+
+.header_text2{
+
+  color: #545454;
+  margin: 0 0 10px 30px;
+
+}
+
+.set_blue{
+
+  background-color: #007edf;
+}
+
 
 h1 {
   font-size: 36px;
@@ -300,8 +313,9 @@ Full-Width Styles
   color: #fff;
   font-weight: 70;
   border-right: solid;
+  line-height: 12px;
   border-width: 1px;
-  border-color: white;
+  border-color: #545454;
   border-top-left-radius:2px;
   border-top-right-radius: 2px;
 
@@ -318,7 +332,7 @@ Full-Width Styles
 
 
 #header_wrap .inner {
-  padding: 20px 10px 30px 10px;
+  padding: 0 0 0 10px;
 }
 
 
@@ -391,6 +405,10 @@ Full-Width Styles
   background: #212121;
 }
 
+.no_border{
+
+  border-right: 0px solid;
+}
 
 
 /*******************************************************************************
