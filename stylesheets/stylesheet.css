@@ -59,12 +59,18 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 10px 0;
+  margin: 10 0;
   font-weight: 700;
-  /*color:#222222;*/
-  color: white;
+  color:#222222;
   font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
   letter-spacing: -1px;
+}
+
+.header_text{
+
+  color: white;
+  margin: 0 0;
+
 }
 
 h1 {
@@ -267,22 +273,24 @@ Full-Width Styles
   position: relative;
   max-width: 640px;
   padding: 20px 10px;
-  margin: 0 auto;
+  margin: 0 0 0 0;
+  overflow: hidden;
 }
 
 #nav{
-  display: block
+  display: block;
   width:100%;
   float:left;
   margin:0 0 0 0;
   padding:0;
   list-style:none;
-  background-color:#212121;
+  /*background-color:#212121;*/
 }
 
 #nav li{
   float:left;
   display: block;
+  margin: 0 0 0 0;
 }
 
 #nav li a{
