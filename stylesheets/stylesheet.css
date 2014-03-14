@@ -233,6 +233,50 @@ float: left;
   overflow: auto;
 }
 
+.resume_whitespace{
+
+  width: 95%;
+  background-color: #fff;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-size: 14px;
+  text-align: center;
+
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  padding: 10px;
+  box-shadow: 0px 2px 4px rgba(0,0,0,.1);
+  overflow: auto;
+}
+
+.resume_text_head{
+
+  margin:auto;
+  width:100%;
+
+}
+
+.resume_text_sub{
+
+  display:block;
+  position:relative;
+  margin-left:-12.5%;
+  float:left;
+  width:50%;
+
+}
+
+.resume_text_sub2{
+
+  display:block;
+  position:relative;
+  margin-left:75%;
+  width:50%;
+  float:right;
+
+}
+
+
 .port_text_head{
 
   position: relative;
