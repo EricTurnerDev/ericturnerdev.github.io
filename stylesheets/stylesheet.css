@@ -256,7 +256,7 @@ float: left;
 
 }
 
-.bolden{
+.embolden{
 
   font-weight: bold;
 
@@ -323,9 +323,18 @@ float: left;
 .resume_text_small_r{
 
   display:block;
-  margin-left: 14%;
-  float:left;
+  /*margin-left: 14%;*/
+  /*float:left;*/
   font-size: 12px;
+
+}
+
+#interac_date{
+
+  font-size:12px;
+  float:right;
+  margin-right: 1%;
+  padding-top: 3px;
 
 }
 
