@@ -189,6 +189,13 @@ float: left;
 
 }
 
+#port_altcoin{
+
+  position:relative;
+  padding-left: 65%;
+
+}
+
 #port_arduino{
 
   position: relative;
