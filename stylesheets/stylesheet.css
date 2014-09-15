@@ -634,6 +634,7 @@ Full-Width Styles
 .no_border{
 
   border-right: 0px solid;
+  border: 0px;
 }
 
 
