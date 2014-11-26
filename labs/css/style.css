@@ -1,0 +1,71 @@
+.nav {
+  position:relative;
+  display:inline-block;
+  font-size:14px;
+  font-weight:900;
+}
+
+.nav-list {
+
+}
+
+.nav-item {
+  float:left;
+  *display:inline; /*For IE?, also what does inline do?*/
+  zoom:1; /*Why?*/
+}
+
+.nav-item a {
+  display:block;
+  padding:15px 20px; /*What does this do? a b c d vs. a b*/
+  color:#FFF;
+  background:#34495E; /*What is covered by "color"?*/
+}
+
+.nav-item:first-child a {
+  border-radius:5px 0 0 5px;
+}
+
+.nav-item:last-child a {
+  border-radius:0 5px 5px 0;
+}
+
+.nav-item a:hover {
+  background:#2C3E50;
+}
+
+.nav-mobile {
+  display: none; /* Hide from browsers that don't support media queries */
+  cursor: pointer; /* What does this do? */
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #FFFFFF url(img/three55.svg) no-repeat center center; /* See this */
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+#icon-test{
+}
+
+
+/*Below deals with iPhone/mobile */
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .nav {
+    width:100%;
+  }
+  .nav-list {
+    display: none;
+  }
+  .nav-item {
+    width:100%;
+    float:none; /* What does float:none do? (how is it different from default) */
+  }
+  .nav-mobile {
+    display: block;
+  }
+}
+
