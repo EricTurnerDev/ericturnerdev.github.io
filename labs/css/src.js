@@ -1,3 +1,5 @@
+console.log("AAAA");
+
 var mobile = document.createElement('div');
 mobile.className = 'nav-mobile';
 document.querySelector('.nav').appendChild(mobile);
@@ -23,4 +25,4 @@ var toggle = document.querySelector('.nav-list');
 mobileNav.onclick = function(){
   toggleClass(this, 'nav-mobile-open');
   toggleClass(toggle, 'nav-active');
-}
+};
