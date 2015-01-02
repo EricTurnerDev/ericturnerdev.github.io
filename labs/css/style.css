@@ -1,12 +1,12 @@
+
 .nav {
   position: relative;
   display: inline-block;
   font-size: 14px;
   font-weight: 900;
 }
-
-.nav-list {
-
+.nav-listnav-active{
+  margin-top: 0px;
 }
 
 .nav-item {
@@ -50,8 +50,6 @@
 
 .menu-icon {
   fill: #FFFFFF;
-  height: 40px;
-  width: 40px;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
